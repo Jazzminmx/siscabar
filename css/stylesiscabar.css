@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: 170px;
+
+}
+
+h2 {
+color: #0B0B61;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+}
+
+body {
+  text-align: center;
+}
+
+#agrupar
+{
+  margin: 15px auto;
+  margin-top: 110px;
+	text-align: left;
+  width: 760px;
+}
+
+#cabecera {
+  background: #000; /* Old browsers */
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  position: absolute;
+  top:0px;
+  width: 100%;
+}
+
+#columna {
+  background: #CCCCCC;
+  float: left;
+  margin: 20px 0px;
+  padding: 20px;
+  width: 220px;
+}
+
+#seccion {
+
+  border: 0px solid #999999;
+  border-radius: 20px;
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 640px;
+
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+#pie {
+  background: #000; 
+  clear: both;
+  color: #FFFFFF;
+  height: 100px;
+  margin: 0px;
+  margin-left: 0px;
+  font-size: 20px;
+  position: 0px;
+  text-align: center;
+  width: 100%;
+  
+ }
+
+
+article {
+  
+  background: #F2F2F2;
+  border: 2px solid #999999;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+
+   -moz-box-shadow: rgb(150,150,150) 5px 5px;
+  -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+  box-shadow: rgb(150,150,150) 5px 5px;
+
+	-moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+
+}
+
+article footer {
+  text-align: right;
+}
+
+
+article.encabezado
+{
+
+  background: #FFFFFF;
+  border: 0px solid #999999;
+  height: 200px;
+  margin: -80px;
+  margin-bottom: 0px;
+  margin-left: 13px;
+  padding: 10px;
+  width: 10px;
+
+    -moz-box-shadow: rgb(150,150,150) 0px 0px;
+  -webkit-box-shadow: rgb(150,150,150) 0px 0px;
+  box-shadow: rgb(150,150,150) 0px 0px;
+
+   -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+article.form
+{
+  background: #F2F2F2;
+  border: 0px solid #999999;
+   margin-bottom: -15px;
+
+    -moz-box-shadow: rgb(150,150,150) 0px 0px;
+  -webkit-box-shadow: rgb(150,150,150) 0px 0px;
+  box-shadow: rgb(150,150,150) 0px 0px;
+}
+
+#style_01
+{  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 5px;
+  text-align: left;
+
+
+   -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+   
+}
+#style_02
+{  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: -30px;
+  text-align: left;
+}
