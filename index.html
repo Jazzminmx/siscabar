@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html lang="es">
-
+<html>
 <!-- ********************************************************************* -->
 <head>
-	  	<meta charset="iso-8859-1">  <!-- Conjunto de tipos de caractereres aceptables-->
+	  	<meta charset="UTF-8">  <!-- Conjunto de tipos de caractereres aceptables-->
 	   	<meta name="description" content="Ejemplo de HTML5" />
   		<meta name="keywords" content="HTML5, CSS3, JavaScript" />
   		<title>SISCABAR</title>
@@ -15,47 +14,36 @@
 
 <!-- ********************************************************************* -->
 <body>
-	<header id="cabecera">	
+	<header id="cabecera">
 	</header>
 
-	
-<div id="agrupar">
 
-	<section id="seccion">
+  <div id="agrupar">
 
-		<article class="encabezado">
-		<figure>
-        <img src="siscabarlog.png"  width='606' height='200'> 
-        </figure>
-		</article>
-	
-		<article>
-			<hgroup>
-        		<h1>SISTEMA DE CONTROL DE BARES</h1>
-        		
-        		<article class="form">
-        		
-        		<form action="index.php" id="login_usuarios.php" method="post">
-        		<label id="style_02">Usuario:</label>
-           		 <input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
-      			</article>
+  	<section id="seccion">
 
-    			<article class="form">
-        		<label id="style_02">Password:</label>
-           		 <input type="password" id="style_01"name="password" autofocus placeholder="Escribe tu password">
-      			</article>
+          		<article class="encabezado">
+          		  <figure>
+                  <img src="siscabarlog.png"  width='606' height='200'>
+                </figure>
+          		</article>
 
+              <article>
+          		<h1>SISTEMA DE CONTROL DE BARES</h1>
+              </br>
+          		<form action="index.php" id="login_usuarios.php" method="post">
+              		<label id="style_02">Usuario:</label>
+                 	<input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
+                  </br></br>
+              		<label id="style_02">Password:</label>
+                 	<input type="password" id="style_01"name="password" placeholder="Escribe tu password">
+    				      </br></br>
+                  <input type="submit" id="style_02" value="INICIAR SESION">
+      			   </form>
+               </article>
+  	</section>
+  </div>
 
-      			<article class="form">
-				<input type="submit" id="style_02" value="INICIAR SESION">
-    			</article>
-    			</form>
-        	</hgroup>
-       </article>
-	</section>
-
-	
-</div>
 <footer id="pie"></footer>
 </body>
 </html>
