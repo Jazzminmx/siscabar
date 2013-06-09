@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <html>
 <!-- ********************************************************************* -->
@@ -12,32 +13,39 @@
 </head>
 
 <!-- ********************************************************************* -->
-<body>
+<body id="principal">
+	<header id="cabecera">
+    SISCABAR
+	</header>
+
+  <article id="cabecera_02">
+
+      BIENVENIDOS AL SISTEMA DE CONTROL DE BARES 
+  </article>  
 
   <div id="agrupar">
 
   	<section id="seccion">
 
-  		<article class="encabezado">
-  		    <figure>
-            <img src="siscabarlog.png"  width='606' height='200'>
-          </figure>
-  		</article>
-
-  		<article class="form">
-          		<h1>SISTEMA DE CONTROL DE BARES</h1>
-
+          
+              <article class="formula">
+          		
+              </br>
           		<form action="index.php" id="login_usuarios.php" method="post">
-            		<label id="style_02">Usuario:</label>
-               	<input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
-                <label id="style_02">Password:</label>
-                <input type="password" id="style_01"name="password" autofocus placeholder="Escribe tu password">
-                <input type="submit" id="style_02" value="INICIAR SESION">
-              </form>
-      </article>
+              		<label id="style_02">Usuario:</label>
+                 	<input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
+                  </br></br>
+              		<label id="style_02">Password:</label>
+                 	<input type="password" id="style_01"name="password" placeholder="Escribe tu password">
+    				      </br></br>
+                  <input type="submit" id="style_02" value="INICIAR SESION">
+      			   </form>
+               </article>
   	</section>
-
   </div>
-<footer id="pie"></footer>
+
+<footer id="pie">
+
+</footer>
 </body>
 </html>
