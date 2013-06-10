@@ -1,3 +1,7 @@
+
+
+/*Inicia CSS de index.html*/
+
 * {
   margin: 0px;
   margin-left: 50px;
@@ -20,28 +24,17 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: normal;
 }
 
-body {
-  text-align: center;
-  background: #F2F2F2;
-}
-
 #agrupar
 {
   background: #000;
   margin: 15px auto;
   margin-top: 110px;
-	text-align: left;
+  text-align: left;
   width: 760px;
 }
 
-#cabecera {
-   
-  color: #F2F2F2;
-  background: -webkit-linear-gradient(top, #4187C9, #0E1F8E);
-  background: -moz-linear-gradient(top, #4187C9, #0E1F8E);
+#cabecera, #cabecera_02{
   font-size: 25px;
-  font: bold 22px  sans-serif;
-  text-shadow: rgb(0,0,150) 3px 3px 5px;
   height: 20px;
   margin: 20px;
   margin-bottom: 5px;
@@ -49,34 +42,35 @@ body {
   margin-top: 0px;
   padding: 20px;
   position: absolute;
-  text-align: left;
-  top:0px;
   width: 85%;
+}
+
+
+#cabecera
+{
+
+  background: -webkit-linear-gradient(top, #4187C9, #0E1F8E);
+  background: -moz-linear-gradient(top, #4187C9, #0E1F8E);
+  color: #F2F2F2;
+  font: bold 22px  sans-serif;
+  text-align: left;
+  text-shadow: rgb(0,0,150) 3px 3px 5px;
+  top:0px;
 
 -moz-box-shadow: inset -2px 0px 5px 0px #EFF0F3;
 -webkit-box-shadow: inset -2px 0px 5px 0px #EFF0F3;
 box-shadow: inset 0px 0px 5px 0px #EFF0F3;
-
 }
 
 #cabecera_02 {
 
-  border: 0px solid #999999; 
   background: -webkit-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
   background: -moz-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
+  border: 0px solid #999999;
   color: #000;
-  font-size: 15px;
   font: bold 16px Arial, sans-serif;
-  height: 20px;
-  margin: 20px;
-  margin-bottom: 5px;
-  margin-left: 45px;
-  margin-top: 0px;
-  padding: 20px;
-  position: absolute;
   text-align: center;
   top:55px;
-  width: 85%;
 
 
 -moz-box-shadow: inset -2px 0px 5px 0px #707074;
@@ -87,14 +81,6 @@ box-shadow: inset 0px 0px 5px 0px #707074;
   -webkit-border-radius: 0px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 
-}
-
-#columna {
-  background: #CCCCCC;
-  float: left;
-  margin: 20px 0px;
-  padding: 20px;
-  width: 220px;
 }
 
 #seccion {
@@ -112,7 +98,7 @@ box-shadow: inset 0px 0px 5px 0px #707074;
   padding: 5px;
   text-align: center;
   top: 100px;
-width: 120%;
+  width: 123%;
 
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -124,77 +110,49 @@ box-shadow: inset 0px 0px 5px 0px #707074;
 }
 
 #principal {
- 
+  background: #F2F2F2;
   border: 0px solid #999999;
-  float: left;
   margin: 0px;
   margin-bottom: 0px;
   margin-left: 100px;
   margin-top: 0px;
   padding: 20px;
-  position: absolute;
-  text-align: left;
-  padding: 5px;
+  position: relative;
   text-align: center;
   top:0px;
   height: 100%;
   width: 1020px;
 
- 
+
 -moz-box-shadow: 5px 5px 5px 10px #888;
 -webkit-box-shadow:5px 5px 5px 10px #888;
 box-shadow: 0px 0px 5px 5px #888;
 }
 
 #pie {
-  
+
   clear: both;
   color: #FFFFFF;
+  font-size: 20px;
   height: 100px;
   margin: 0px;
   margin-left: 0px;
-  font-size: 20px;
   position: 0px;
   text-align: center;
   width: 100%;
-  
+
  }
-
-
-article {
-  
-  background: #F2F2F2;
-  border: 2px solid #999999;
-  padding: 20px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-
-   -moz-box-shadow: rgb(150,150,150) 5px 5px;
-  -webkit-box-shadow: rgb(150,150,150) 5px 5px;
-  box-shadow: rgb(150,150,150) 5px 5px;
-
-	-moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-
-}
-
-article footer {
-  text-align: right;
-}
 
 article.formula
 {
-  
   background: #F2F2F2;
-  
   border: 2px solid #999999;
-  padding: 20px;
   margin-top: 50px;
   margin-bottom: 15px;
   margin-left: 200px;
+  padding: 20px;
   top: 20px;
-  width: 50%;
+  width: 55%;
 
   -moz-box-shadow: inset -2px 0px 5px 0px #707074;
   -webkit-box-shadow: inset -2px 0px 5px 0px #707074;
@@ -205,56 +163,42 @@ article.formula
   border-radius: 25px;
 
 }
-article.encabezado
-{
-
-  background: #F2F2F2;
-  border: 0px solid #9F3D25;
-  color: 
-  height: 200px;
-  margin: -80px;
-  margin-bottom: 0px;
-  margin-left: 13px;
-  padding: 10px;
-  width: 10px;
-
-    -moz-box-shadow: rgb(150,150,150) 0px 0px;
-  -webkit-box-shadow: rgb(150,150,150) 0px 0px;
-  box-shadow: rgb(150,150,150) 0px 0px;
-
-   -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-}
-article.form
-{
-  background: #F2F2F2;
-  border: 0px solid #999999;
-   margin-bottom: -15px;
-
-    -moz-box-shadow: rgb(150,150,150) 0px 0px;
-  -webkit-box-shadow: rgb(150,150,150) 0px 0px;
-  box-shadow: rgb(150,150,150) 0px 0px;
-}
 
 #style_01
-{  
+{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin-left: 5px;
   text-align: left;
-
-
-   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 
-   
 }
+
 #style_02
-{  
+{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin-left: -30px;
-  text-align: left;
+}
+
+
+/*INICIA CSS DE MENU.HTML*/
+
+#menu{
+  background: -webkit-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
+  background: -moz-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
+  border: 0px solid #999999;
+  color: #000;
+  font: bold 16px Arial, sans-serif;
+
+
+-moz-box-shadow: inset -2px 0px 5px 0px #707074;
+-webkit-box-shadow: inset -2px 0px 5px 0px #707074;
+box-shadow: inset 0px 0px 5px 0px #707074;
+
+-moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
 }
