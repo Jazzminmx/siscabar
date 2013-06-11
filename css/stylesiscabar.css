@@ -2,10 +2,7 @@
 
 /*Inicia CSS de index.html*/
 
-* {
-  margin: 0px;
-  margin-left: 50px;
-  margin-right: 20px;
+*{
   padding: 0px;
 
 }
@@ -36,10 +33,7 @@ font-weight: normal;
 #cabecera, #cabecera_02{
   font-size: 25px;
   height: 20px;
-  margin: 20px;
-  margin-bottom: 5px;
   margin-left: 45px;
-  margin-top: 0px;
   padding: 20px;
   position: absolute;
   width: 85%;
@@ -112,10 +106,7 @@ box-shadow: inset 0px 0px 5px 0px #707074;
 #principal {
   background: #F2F2F2;
   border: 0px solid #999999;
-  margin: 0px;
-  margin-bottom: 0px;
-  margin-left: 100px;
-  margin-top: 0px;
+  margin: 0 auto;
   padding: 20px;
   position: relative;
   text-align: center;
@@ -186,19 +177,50 @@ article.formula
 
 /*INICIA CSS DE MENU.HTML*/
 
+/*INICIA CODIGO DEL MENU DE PAGINA*/
 #menu{
-  background: -webkit-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
-  background: -moz-radial-gradient(center, circle, #E0E1EA 60%, #545660 200%);
-  border: 0px solid #999999;
+margin: -20px auto;
+text-align: center;
+}
+
+#menu ul{
+  margin: 5px auto;
+  list-style: none;
+  padding: 10px;
+}
+
+#menu li{
+  border-right: 1px solid #000;
+  display: inline-block;
+  padding: 0  30px;
+
+}
+
+#menu li:last-child{
+  border: none;
+}
+
+#menu a{
+  text-decoration: none;
   color: #000;
-  font: bold 16px Arial, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#menu a:hover{
+  color: #f3f3f3;
+}
 
 
--moz-box-shadow: inset -2px 0px 5px 0px #707074;
--webkit-box-shadow: inset -2px 0px 5px 0px #707074;
-box-shadow: inset 0px 0px 5px 0px #707074;
+/*TERMINA CODIGO DE MENU DE PAGINA*/
 
--moz-border-radius: 0px 0px 20px 20px;
-  -webkit-border-radius: 0px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+#imagen{
+  margin-left: 6px;
+  width: 100%;
+  padding-top: 110px;
+}
+
+#imagen img{
+  width: 94%;
+  height: 400px;
 }
