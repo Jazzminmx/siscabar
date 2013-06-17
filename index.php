@@ -20,26 +20,22 @@
 
   <article id="cabecera_02">
 
-      BIENVENIDOS AL SISTEMA DE CONTROL DE BARES 
-  </article>  
+      BIENVENIDOS AL SISTEMA DE CONTROL DE BARES
+  </article>
 
   <div id="agrupar">
 
   	<section id="seccion">
-
-          
               <article class="formula">
-          		
-              </br>
-          		<form action="index.php" id="login_usuarios.php" method="post">
-              		<label id="style_02">Usuario:</label>
-                 	<input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
-                  </br></br>
-              		<label id="style_02">Password:</label>
-                 	<input type="password" id="style_01"name="password" placeholder="Escribe tu password">
-    				      </br></br>
-                  <input type="submit" id="style_02" value="INICIAR SESION">
-      			   </form>
+            		<form action="index.php" id="login_usuarios.php" method="post">
+                		<br><label id="style_02">Nombre de usuario:</label></br>
+                   	<input type="text" id="style_01"name="usuario" autofocus placeholder="Escribe tu usuario">
+                    </br>
+                		<br><label id="style_02">Contraseña:</label></br>
+                   	<input type="password" id="style_01"name="password" placeholder="Escribe tu contraseña">
+      				      </br></br>
+                    <input type="button" id="style_02" value="  Iniciar Sesion  ">
+        			   </form>
                </article>
   	</section>
   </div>
