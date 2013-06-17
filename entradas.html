@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<html>
+<!-- ********************************************************************* -->
+<head>
+    	<meta charset="UTF-8">  <!-- Conjunto de tipos de caractereres aceptables-->
+	   	<meta name="description" content="Ejemplo de HTML5" />
+  		<meta name="keywords" content="HTML5, CSS3, JavaScript" />
+  		<title>SISCABAR</title>
+  		<link rel="stylesheet" type="text/css"  href="css/stylesiscabar.css" media="all" >
+  		<link rel="shortcut icon" type="image/jpg" href="1.jpg">
+</head>
+
+<!-- ********************************************************************* -->
+<body id="principal">
+	<header id="cabecera">
+    SISCABAR
+	</header>
+
+  <article id="cabecera_02">
+    <nav id="menu">
+        <ul>
+          <li><a href="menu.html">Inicio</a></li>
+          <li><a href="inventario.html">Inventario</a></li>
+          <li><a href="ventas.html">Ventas</a></li>
+          <li><a href="precio.html">Precios</a></li>
+          <li><a href="reportes.html">Reportes</a></li>
+          <li><a href="#">Cerrar Sesion</a></li>
+        </ul>
+    </nav>
+  </article>
+
+  <div id="submenu">
+      <ul>
+          <li><a href="inventario.html">Principal</a></li>
+          <li><a href="existencia.html">Existencia actual</a></li>
+          <li><a href="entradas.html">Entradas</a></li>
+          <li><a href="merma.html">Merma</a></li>
+      </ul>
+  </div>
+
+   <div id="agrupar">
+
+    <section id="frmseccion">
+     <h2>REGISTRO DE PRODUCTO NUEVO AL ALMACEN</h2>
+
+
+          
+              <article class="inventariofrm_group1">
+              
+                 <form action="index.php" id="login_usuarios.php" method="post">
+                  </br>
+                  
+                  <article class="columna_frm01"><label>Categoria:</label></article>
+                  <article class="columna_frm02"><input type="tel" id="style_01" name="telefono" list="categoria" placeholder="Categoria"></article>
+
+                  <article class="columna_frm01"><label>Descripcion:</label></article>
+                  <article class="columna_frm02"><input type="text" id="style_01" name="descripcion" placeholder="Descripcion del producto"></article>
+
+                  <article class="columna_frm01"><label>Cantidad:</label></article>
+                  <article class="columna_frm02"><input type="text" id="style_01" name="cantidad" placeholder="Cantidad"></article>
+
+                  <article class="columna_frm01"><label>Precio:</label></article>
+                  <article class="columna_frm02"><input type="text" id="style_01" name="precio" placeholder="Precio por unidad"></article>
+
+
+                  </br>
+                  </br>
+                 </form>
+
+               </article>
+
+                 <article class="inventariofrm_group2">
+                 </br>
+
+                <article class="columna_frm01"><label>Fecha:</label></article>
+                <article class="columna_frm02"><input type="text" id="style_01" name="fecha" placeholder="Fecha de entrada"></article>
+
+                <article class="columna_frm01"><label>Valoracion:</label></article>
+                <article class="columna_frm02"><input type="text" id="style_01" name="valoracion" placeholder="valoracion del producto"></article>
+
+                <article class="columna_frm01"><label>Proveedor:</label></article>
+                <article class="columna_frm02"><input type="text" id="style_01" name="proveedor" placeholder="Nombre del proveedor"></article>
+                 </br>
+                 </form>
+               </article>
+
+
+                <article class="botones_01"><input type="button" id="style_02" name="guarduar" value="  GUARDAR  "></article>
+
+                 <article class="botones_02"><input type="button" id="style_02" name="guarduar" value=" CANCELAR  " ></article>
+
+
+    </section>
+  </div>
+<footer id="pie">
+                  
+                  <datalist id="categoria">
+                  <option value="Tequila" label="Tequila">
+                  <option value="Wiskhy" label="Wiskhy">
+                  <option value="Vodka" label="Vodka">
+                  <option value="Ron" label="Ron">
+                  <option value="Ginebra" label="Ginebra">
+                  </datalist>
+
+</footer>
+</body>
+</html>
